@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  padding: 10px;
+  color: #333333;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+[v-cloak] {
+  display: none;
+}
+#app {
+  & > div {
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: #fafafa;
+    border: 1px solid #ececec;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+.bar {
+  color: #fff;
+  padding-top: 11px;
+  background-color: #333333;
+  min-width: 60px;
+  height: 35px;
+}
+.outer {
+  width: 100%;
+  border: 1px solid #ececec;
+  background-color: #fff;
+  margin-top: 7px;
+}
+strong {
+  padding-left: 4px;
+}
+span {
+  padding-left: 12px;
+}
